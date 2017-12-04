@@ -1,0 +1,162 @@
+body {
+	margin: 0 auto;
+	max-width: 60em;
+	color: white;
+	background-repeat: no-repeat;
+}
+img {
+	float: left;
+	margin-left: 12.5%;
+	margin-top: 25px;
+}
+h1.header {
+	float: right;
+	margin-right: 25%;
+	margin-top: 55px;
+	font-family: Impact;
+	font-size: 52px;
+}
+header.efri {
+	border: #f7ad36 solid 3px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 35px;
+	color: #f7ad36;
+}
+menu {
+	border: #f7ad36 solid 3px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 35px;
+	color: #f7ad36;
+}
+ul.færinglinka {
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-around;
+	padding-right: 80px;
+}
+a.efri {
+	color: #f7ad36;
+	text-decoration: none;
+}
+a:hover.efri {
+	text-decoration: underline;	
+}
+p {
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 35px;
+	padding:15px;
+	color: black;
+}
+ul.owlinkar {
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+h4.ow { 
+	margin-left: 35px;
+}
+h1.umleikinn {
+	max-width: 50%;
+	display: flex;
+	justify-content: center;
+	color: #f7ad36;
+}
+h1.framleiðendur {
+	max-width: 50%;
+	display: flex;
+	justify-content: center;
+	color: #f7ad36;
+}
+h1.þróun {
+	max-width: 50%;
+	display: flex;
+	justify-content: center;
+	color: #f7ad36;
+}
+h1.notendur {
+	max-width: 50%;
+	display: flex;
+	justify-content: center;
+	color: #f7ad36;
+}
+h1.framtíð {
+	max-width: 50%;
+	display: flex;
+	justify-content: center;
+	color: #f7ad36;
+}
+p.umleikinn {
+	max-width: 50%;
+}
+p.framleiðendur {
+	max-width: 50%;
+}
+p.þróun {
+	max-width: 50%;
+}
+p.notendur {
+	max-width: 50%;
+}
+p.framtíð {
+	max-width: 50%;
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 35px;
+}
+section.þróun {
+	float:right;
+}
+section.notendur {
+	float: right;
+}
+section.framtíð {
+	float: right;
+}
+section.myndband {
+	float: right;
+}
+footer {
+	float:center;
+	padding: 5px;
+
+}
+img.Doom {
+	float:right;
+}
+img.Mc {
+	float:right;
+}
+img.Torb {
+	float:right;
+	width: 350px;
+	height:350px;
+}
+img.Worldcup {
+	float:right;
+	width: 300px;
+	height:300px;
+}
+h1.myndband {
+	display: flex;
+	justify-content: center;
+	color: #f7ad36;
+}
+iframe {
+	padding:25px;
+	margin-left: 9%;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 35px;
+	border: #f7ad36 solid 3px;
+	margin-bottom: 55px;
+}
+a.neðri {
+	color: black;
+	text-decoration: none;
+}
+a:hover.neðri {
+	text-decoration: underline;	
+}
