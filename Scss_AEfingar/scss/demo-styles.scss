@@ -1,0 +1,94 @@
+/* aefing 1*/
+$litur1: blue;
+$litur2: #e20b0b;
+$texti: " : thetta er baettur texti";
+$leturstaerd: 16px;
+$thunnurborder: 1px solid $litur2;
+$padding: 10px 10px 10px 10px; 
+
+h1 {
+	color: $litur1;
+}
+
+p.setning {
+	font-size: $leturstaerd;
+	border: $thunnurborder;
+	padding: $padding;
+}
+
+p.setning:after {
+	content: $texti;
+}
+
+/* aefing 2*/
+header {
+	font-family: Helvitica, Arial, sans-serif;
+
+	p{
+		font-family: Times;
+	}
+	p.setning {
+		font-family: "Courier New";
+	}
+}
+
+p.setning {
+	&:hover {
+		color: red;
+	}
+}
+
+/* aefing 3*/
+@mixin mittstyle {
+	font-family: Impact, Arial, sans-serif;
+}
+
+h2 {
+	color: orange;
+	@include mittstyle;
+} 
+
+/* aefing 4*/
+$litidletur: 10px;
+$midlungsletur: 14px;
+$stortletur: 22px;
+$medalletur: ($litidletur + $midlungsletur + $stortletur)/3;
+
+p.aefing4 {
+	font: $medalletur;
+}
+
+/* aefing 5*/
+$gulurlitur: yellow;
+
+/* Invert gerir andstaeðuna við litin sinn*/
+h1.invert {
+	color: (invert($gulurlitur));
+}
+
+/* Lighten er fall sem laetur litin verða ljosari*/
+h1.lighten {
+	color: (lighten($gulurlitur, 30%)); 
+}
+
+/* Darken er fall sem laetur litin verða dekkri*/
+h1.darken {
+	color: (darken($gulurlitur, 30%)); 
+}
+
+/* aefing 6*/
+@import "import1.scss";
+
+h1.aefing6 {
+    color: $litur1-aefing6;
+}
+
+p.aefing6 {
+    font-size: $leturstaerd-aefing6;
+    border: $thunnurborder-aefing6;
+    padding: $padding-aefing6;
+}
+
+p.aefing6:after {
+    content: $texti-aefing6;
+}
