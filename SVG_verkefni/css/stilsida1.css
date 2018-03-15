@@ -1,0 +1,326 @@
+/*Mobile Up*/
+@media all and (max-width: 37.5em) {
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #EBD5A3;
+}
+
+nav.topnav {
+	background-color: black;
+	order:1;
+}
+
+li {
+	border:1px solid #4BFF12;
+	color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 16px;
+}
+
+li a:hover {
+    background-color: #4BFF12;
+    color:black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+	float: right;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+}
+
+aside.vinstri {
+	padding: 2%;
+	background-color: yellow;
+}
+
+aside.haegri {
+	padding: 2%;
+	background-color: yellow;
+}
+footer {
+	padding:2%;
+	background-color: lightgreen;
+}
+}
+
+/*Tablet*/
+@media all and (min-width: 37.5em) and (max-width: 48em) {
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #EBD5A3;
+}
+
+nav.topnav {
+	background-color: black;
+	order:1;
+}
+
+li {
+	border:1px solid #4BFF12;
+	color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 16px;
+}
+
+li a:hover {
+    background-color: #4BFF12;
+    color:black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+}
+
+aside.vinstri {
+	background-color: yellow;
+	max-width: 46%;
+	display: inline-block;
+	height:245px;
+	padding: 2%;
+}
+
+aside.haegri {
+	background-color: yellow;
+	max-width: 46%;
+	float: right;
+	height:245px;
+	padding: 2%;
+}
+footer {
+	padding:2%;
+	background-color: lightgreen;
+}
+}
+
+/*The Holy Grail*/
+@media all and (min-width: 48em) {
+
+body {
+	margin: 0 auto;
+	max-width: 60em;
+	background-color: #EBD5A3;
+}
+
+nav.topnav {
+	background-color: black;
+}
+
+.topmenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+li {
+	border:1px solid #4BFF12;
+	color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 16px;
+}
+
+li a:hover {
+    background-color: #4BFF12;
+    color:black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+}
+
+section.kafli-1 {
+	display: flex;
+	flex-direction: row;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+	order:2;
+}
+
+aside.vinstri {
+	padding: 2%;
+	background-color: yellow;
+	order:1;
+}
+
+aside.haegri {
+	padding: 2%;
+	background-color: yellow;
+	order:3;
+}
+
+footer {
+	padding:2%;
+	background-color: lightgreen;
+}
+}
+
+/*Box röðun - 1*/
+@media all and (max-width: 48em) {
+
+.boxin {
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+.boxA {
+	height: 2.5em;
+	width: 2.5em;
+	margin: 10px;
+}
+
+.boxB {
+	height: 2.5em;
+	width: 2.5em;
+	margin: 10px; 
+}
+
+.boxC {
+	height: 2.5em;
+	width: 2.5em;
+	margin: 10px;
+}
+
+.boxD {
+	height: 2.5em;
+	width: 2.5em;
+	margin: 10px;
+}
+
+a.boxlink1 {
+	text-decoration: none;
+	color: white;
+}
+
+a.boxlink2 {
+	text-decoration: none;
+	color: white;
+}
+
+a.boxlink3 {
+	text-decoration: none;
+	color: white;
+}
+
+a.boxlink4 {
+	text-decoration: none;
+	color: white;
+}
+}
+
+/*Box röðun - 2*/
+@media all and (min-width: 48em) {
+
+.boxin {
+	display: flex;
+	flex-direction: column;
+	color: white;
+    position: fixed;
+    left: 0px;
+    top: 150px;
+}
+
+.boxA {
+	height: 2.5em;
+	width: 2.5em;
+	padding-top: 8px;
+}
+
+.boxB {
+	height: 2.5em;
+	width: 2.5em;  
+}
+
+.boxC {
+	height: 2.5em;
+	width: 2.5em;
+}
+
+.boxD {
+	height: 2.5em;
+	width: 2.5em;
+}
+
+a.boxlink1 {
+	text-decoration: none;
+	color: white;
+}
+
+a.boxlink2 {
+	text-decoration: none;
+	color: white;
+}
+
+a.boxlink3 {
+	text-decoration: none;
+	color: white;
+}
+
+a.boxlink4 {
+	text-decoration: none;
+	color: white;
+}
+}
