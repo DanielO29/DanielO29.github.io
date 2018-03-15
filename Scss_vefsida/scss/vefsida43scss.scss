@@ -1,0 +1,391 @@
+/*Import af normalize*/
+@import "_normalize.scss";
+
+/*Breytur*/
+$svarturlitur: black;
+$gulurlitur: yellow;
+$neonlitur: #4BFF12; 
+$thunnurborder: 1px solid $neonlitur;
+$displayflex: flex;
+$flexdirectionrow: row; 
+$flexdirectioncolumn: column; 
+
+/*Mixin*/
+@mixin sidekassar {
+	padding: 2%;
+	background-color: $gulurlitur;
+}
+
+@mixin footer {
+	padding:2%;
+	background-color: lightgreen;
+}
+
+/*Mobile Up*/
+@media all and (max-width: 37.5em) {
+
+body {
+	display: $displayflex;
+	flex-direction: $flexdirectioncolumn;
+}
+
+nav.topnav {
+	background-color: $svarturlitur;
+	order:1;
+}
+
+li {
+	border: $thunnurborder;
+	color: $svarturlitur;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 16px;
+}
+
+li a:hover {
+    background-color: #4BFF12;
+    color: $svarturlitur;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+}
+
+aside.vinstri {
+	@include sidekassar;
+}
+
+aside.haegri {
+	@include sidekassar;
+}
+
+section.lorem1 {
+	background-color: (lighten($neonlitur, 30%));
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem2 {
+	background-color: invert($neonlitur);
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem3 {
+	background-color: (darken($neonlitur, 30%));
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem4 {
+	background-color: invert($neonlitur);
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+footer {
+	@include footer;
+}
+}
+
+/*Tablet*/
+@media all and (min-width: 37.5em) and (max-width: 48em) {
+
+body {
+	display: $displayflex;
+	flex-direction: $flexdirectioncolumn;
+}
+
+nav.topnav {
+	background-color: $svarturlitur;
+	order:1;
+}
+
+li {
+	border: $thunnurborder;
+	color: $svarturlitur;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 16px;
+}
+
+li a:hover {
+    background-color: #4BFF12;
+    color: $svarturlitur;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+}
+
+aside.vinstri {
+	background-color: $gulurlitur;
+	max-width: 46%;
+	display: inline-block;
+	height:245px;
+	padding: 2%;
+}
+
+aside.haegri {
+	background-color: $gulurlitur;
+	max-width: 46%;
+	float: right;
+	height:245px;
+	padding: 2%;
+}
+
+section.lorem1 {
+	background-color: (lighten($neonlitur, 30%));
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem2 {
+	background-color: invert($neonlitur);
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem3 {
+	background-color: (darken($neonlitur, 30%));
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem4 {
+	background-color: invert($neonlitur);
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+footer {
+	@include footer;
+}
+}
+
+/*The Holy Grail*/
+@media all and (min-width: 48em) {
+
+body {
+	margin: 0 auto;
+	max-width: 60em;
+	background-color: #EBD5A3;
+}
+
+nav.topnav {
+	background-color: $svarturlitur;
+}
+
+.topmenu {
+	display: $displayflex;
+	flex-direction: $flexdirectionrow;
+	justify-content: center;
+}
+
+li {
+	border: $thunnurborder;
+	color: $svarturlitur;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 16px;
+}
+
+li a:hover {
+    background-color: #4BFF12;
+    color: $svarturlitur;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+}
+
+section.kafli-1 {
+	display: $displayflex;
+	flex-direction: $flexdirectionrow;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+	order:2;
+}
+
+aside.vinstri {
+	padding: 2%;
+	background-color: $gulurlitur;
+	order:1;
+}
+
+aside.haegri {
+	padding: 2%;
+	background-color: $gulurlitur;
+	order:3;
+}
+
+section.lorem1 {
+	background-color: (lighten($neonlitur, 30%));
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem2 {
+	background-color: invert($neonlitur);
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem3 {
+	background-color: (darken($neonlitur, 30%));
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+section.lorem4 {
+	background-color: invert($neonlitur);
+	padding: 2%;
+
+	p{
+		font-family: Impact;
+
+	&:hover {
+		color: red;
+	}
+	}
+}
+
+footer {
+	@include footer;
+}
+}
