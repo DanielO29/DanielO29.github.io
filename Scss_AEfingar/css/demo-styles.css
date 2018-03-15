@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* aefing 1*/
+h1 {
+  color: blue; }
+
+p.setning {
+  font-size: 16px;
+  border: 1px solid #e20b0b;
+  padding: 10px 10px 10px 10px; }
+
+p.setning:after {
+  content: " : thetta er baettur texti"; }
+
+/* aefing 2*/
+header {
+  font-family: Helvitica, Arial, sans-serif; }
+  header p {
+    font-family: Times; }
+  header p.setning {
+    font-family: "Courier New"; }
+
+p.setning:hover {
+  color: red; }
+
+/* aefing 3*/
+h2 {
+  color: orange;
+  font-family: Impact, Arial, sans-serif; }
+
+/* aefing 4*/
+p.aefing4 {
+  font: 15.3333333333px; }
+
+/* aefing 5*/
+/* Invert gerir andstae├░una vi├░ litin sinn*/
+h1.invert {
+  color: blue; }
+
+/* Lighten er fall sem laetur litin ver├░a ljosari*/
+h1.lighten {
+  color: #ffff99; }
+
+/* Darken er fall sem laetur litin ver├░a dekkri*/
+h1.darken {
+  color: #666600; }
+
+/* aefing 6*/
+h1.aefing6 {
+  color: red; }
+
+p.aefing6 {
+  font-size: 18px;
+  border: 1px solid blue;
+  padding: 15px 15px 15px 15px; }
+
+p.aefing6:after {
+  content: " :Baettur texti!"; }
+
+/*# sourceMappingURL=demo-styles.css.map */
