@@ -10,6 +10,9 @@ Pitbull sá okkur og vildi vera með.
 
 Markmið fyrirtækisins er að græða peninga og markhópurinn okkar er ungt fólk.
 
+# Tengill á Rossarinn
+https://danielo29.github.io/Rossarinn/index.html
+
 # DanielO29.github.io
 
 ### Lokaverkefni Vef 1.Önn
