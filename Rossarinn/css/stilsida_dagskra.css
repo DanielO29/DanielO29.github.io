@@ -1,0 +1,427 @@
+@media all and (min-width: 68em) {
+
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: #60ff88;
+	border-radius: 10px;
+    color: black;
+}
+li {
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #730487;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+header {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+	padding-left: 15px;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+h2.taflaheader {
+	text-align: center;
+}
+
+table {
+ 	border-collapse: separate;
+	border-spacing: 0;
+	margin-top: 35px;
+}
+
+thead {
+	background: #730487;
+	color: #fff;
+}
+
+th {
+	padding: 10px 25px;
+}
+
+tbody tr:nth-child(even) {
+  background: #730487;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background: #df32ff;
+  color: white;
+}
+
+td {
+	border-bottom: 1px solid #252872;
+	border-right: 1px solid #252872;
+	padding: 10px 25px;
+	text-align: center;
+}
+
+caption {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.taflan12 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.taflan3 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.dagar1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.dagar2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+section.toflur {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #df32ff;
+	color: white;
+}
+
+footer {
+	border: #60ff88 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 5px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+}
+
+@media all and (min-width: 37.5em) and (max-width: 68em) {
+
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: #60ff88;
+	border-radius: 10px;
+    color: black;
+}
+li {
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #730487;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+header {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+	padding-left: 15px;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+h2.taflaheader {
+	text-align: center;
+}
+
+table {
+ 	border-collapse: separate;
+	border-spacing: 0;
+		margin-top: 35px;
+}
+
+thead {
+	background: #730487;
+	color: #fff;
+}
+
+th {
+	padding: 10px 25px;
+}
+
+tbody tr:nth-child(even) {
+  background: #730487;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background: #df32ff;
+  color: white;
+}
+
+td {
+	border-bottom: 1px solid #252872;
+	border-right: 1px solid #252872;
+	padding: 10px 25px;
+	text-align: center;
+}
+
+.taflan12 {
+	display: flex;
+	flex-direction: column;
+}
+
+.taflan3 {
+	display: flex;
+	flex-direction: column;
+}
+
+caption {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+section.toflur {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #df32ff;
+	color: white;
+}
+
+footer {
+	border: #60ff88 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 5px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+}
+
+@media all and (max-width: 37.5em){
+
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: #60ff88;
+	border-radius: 10px;
+    color: black;
+}
+li {
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #730487;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+header {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+	padding-left: 15px;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+h2.taflaheader {
+	text-align: center;
+}
+
+table {
+ 	border-collapse: separate;
+	border-spacing: 0;
+		margin-top: 35px;
+}
+
+thead {
+	background: #730487;
+	color: #fff;
+}
+
+th {
+	padding: 10px 25px;
+}
+
+tbody tr:nth-child(even) {
+  background: #730487;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background: #df32ff;
+  color: white;
+}
+
+td {
+	border-bottom: 1px solid #252872;
+	border-right: 1px solid #252872;
+	padding: 10px 25px;
+	text-align: center;
+}
+
+.taflan12 {
+	display: flex;
+	flex-direction: column;
+}
+
+.taflan3 {
+	display: flex;
+	flex-direction: column;
+}
+
+caption {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+section.toflur {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #df32ff;
+	color: white;
+}
+
+footer {
+	border: #60ff88 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 5px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+}

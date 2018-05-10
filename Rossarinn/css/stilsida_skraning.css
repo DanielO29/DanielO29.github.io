@@ -1,0 +1,453 @@
+@media all and (min-width: 68em) {
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #730487;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: #60ff88;
+	border-radius: 10px;
+    color: black;
+}
+
+header {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+footer {
+	border: #60ff88 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 20px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.form{
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+.info{
+display: flex;
+justify-content: center;
+margin-bottom: 35px;
+}
+
+.fjoldi{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 35px;
+max-width: 3%;
+margin-left: 500px;
+}
+
+.fjoldin{
+margin-right: 20px;
+max-width: 10%;
+}
+
+.gerd{
+display: flex;
+justify-content: center;
+margin-bottom: 35px;
+}
+
+.gerdin{
+margin-right: 20px;
+}
+.club{
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+.clubbur{
+margin-right: 20px;
+}
+.texti{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 50px;
+max-width: 35%;
+margin-left: 350px;
+}
+
+.mynd{
+border: #60ff88 solid 2px;
+border-radius: 10px;
+color: white;
+margin-top: 20px;
+animation-name: litbreyting;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+img.bumba{
+position: relative;
+animation-name: ross;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+@keyframes litbreyting {
+    0%   {background-color: #8f0da3;}
+    25%  {background-color: #8f0da3;}
+    50%  {background-color: #45034f;}
+    75%  {background-color: #45034f;}
+    100% {background-color: #8f0da3;}
+}
+@keyframes ross {
+    0%   {left:0px; top:0px;}
+    25%  {left:746px; top:0px;}
+    50%  {left:746px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+}
+@media all and (min-width: 37.5em) and (max-width: 68em) {
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #730487;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: #60ff88;
+	border-radius: 10px;
+    color: black;
+}
+
+header {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+footer {
+	border: #60ff88 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 20px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.form{
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+.info{
+margin:20px;
+}
+
+.gerd{
+margin: 20px;
+}
+
+.texti{
+margin: 20px;
+}
+
+.textin{
+	float: left;
+	margin-right: 10px;
+}
+
+.mynd{
+border: #60ff88 solid 2px;
+border-radius: 10px;
+color: white;
+margin-top: 20px;
+animation-name: litbreyting;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+img.bumba{
+width: 300px;
+height: 300px;
+position: relative;
+animation-name: ross;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+@keyframes litbreyting {
+    0%   {background-color: #8f0da3;}
+    25%  {background-color: #8f0da3;}
+    50%  {background-color: #45034f;}
+    75%  {background-color: #45034f;}
+    100% {background-color: #8f0da3;}
+}
+@keyframes ross {
+    0%   {left:0px; top:0px;}
+    25%  {left:350px; top:0px;}
+    50%  {left:350px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+}
+@media all and (max-width: 37.5em){
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background-color: #730487;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: #60ff88;
+	border-radius: 10px;
+    color: black;
+}
+
+header {
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+footer {
+	border: #60ff88 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 20px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.form{
+	margin-top: 20px;
+	border: 3px solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+.info{
+margin:20px;
+}
+
+.gerd{
+margin: 20px;
+}
+
+.texti{
+margin: 20px;
+}
+
+.textin{
+	float: left;
+	margin-right: 10px;
+}
+
+.mynd{
+border: #60ff88 solid 2px;
+border-radius: 10px;
+color: white;
+margin-top: 20px;
+animation-name: litbreyting;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+img.bumba{
+width: 200px;
+height: 200px;
+position: relative;
+animation-name: ross;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+@keyframes litbreyting {
+    0%   {background-color: #8f0da3;}
+    25%  {background-color: #8f0da3;}
+    50%  {background-color: #45034f;}
+    75%  {background-color: #45034f;}
+    100% {background-color: #8f0da3;}
+}
+@keyframes ross {
+    0%   {left:0px; top:0px;}
+    25%  {left:300px; top:0px;}
+    50%  {left:300px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+}
