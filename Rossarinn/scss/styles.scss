@@ -1,0 +1,448 @@
+$litur1: #60ff88;
+$litur2: #730487;
+$pixlar3: 3px;
+$pixlar5: 5px;
+$litadurborder: 3px solid $litur1;
+$flex: flex; 
+
+@mixin mittfont {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media all and (min-width: 68em) {
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	@include mittfont;
+}
+
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: $flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+	border: $pixlar3 solid $litur1;
+	border-radius: 10px;
+	background-color: $litur2;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: $litur1;
+	border-radius: 10px;
+    color: black;
+}
+
+header {
+	margin-top: 20px;
+	border: $pixlar3 solid #60ff88;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+section.adal {
+	display: $flex;
+	flex-direction: row;
+}
+
+.vinstri {
+	float: left;
+}
+
+.fyrsti {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+}
+
+.annar {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+}
+
+.thridji {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+}
+
+.myndir {
+	border: 2px $litur1 solid;
+	border-radius: 10px;
+	display: $flex;
+	justify-content: space-around;
+	background: linear-gradient(#8f0da3, #45034f);
+	margin-top: 5px;
+}
+
+img.pit {
+	padding: 10px;
+	border-radius: 300px;
+	width: 700px;
+	height: 400px;
+}
+
+img.roz {
+	padding: 10px;
+	border-radius: 300px;
+	width: 370px;
+	height: 400px;
+}
+
+footer {
+	border: $litur1 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 5px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: $flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+}
+
+@media all and (min-width: 37.5em) and (max-width: 68em) {
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: $flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+	border: $pixlar3 solid $litur1;
+	border-radius: 10px;
+	background-color: $litur2;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: $litur1;
+	border-radius: 10px;
+    color: black;
+}
+
+header {
+	margin-top: 20px;
+	border: $pixlar3 solid $litur1;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+	position: all;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+section.adal {
+	display: $flex;
+	flex-direction: column;
+}
+
+.ekki_vinstri {
+	float: left;
+	position: all;
+}
+
+.fyrsti {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+	
+}
+
+.annar {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+}
+
+.thridji {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+}
+
+.myndir {
+	border: 2px $litur1 solid;
+	border-radius: 10px;
+	display: $flex;
+	justify-content: space-around;
+	background: linear-gradient(#8f0da3, #45034f);
+	margin-top: 5px;
+	max-width: 100%;
+	position: all;
+}
+
+img.pit {
+	padding: 10px;
+	border-radius: 300px;
+	width: 300px;
+	height: 180px;
+}
+
+img.roz {
+	padding: 10px;
+	border-radius: 300px;
+	width: 135px;
+	height: 150px;
+}
+
+footer {
+	border: $litur1 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 5px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: $flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+}
+@media all and (max-width: 37.5em){
+	body {
+	margin: 0 auto;
+	max-width: 70em;
+	background: linear-gradient(#252872, #66c9ff);
+	background-repeat: no-repeat;
+	background-color: #66c9ff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: $flex;
+    flex-direction: row;
+    justify-content: center;
+    position: all;
+}
+
+li {
+	border: 3px solid $litur1;
+	border-radius: 10px;
+	background-color: $litur2;
+	margin-left: 5px; 
+	margin-top: 5px; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+li a:hover {
+    background-color: $litur1;
+	border-radius: 10px;
+    color: black;
+}
+
+header {
+	margin-top: 20px;
+	border: 3px solid $litur1;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #730487, #df32ff);
+	color: white;
+	position: all;
+}
+
+img.ross {
+	float: left;
+	margin-top: 25px;
+
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+	font-family: 'Arvo', serif;
+	font-size: 36px;
+	padding-right: 150px;
+}
+
+section.adal {
+	display: $flex;
+	flex-direction: column;
+
+}
+
+.ekki_vinstri {
+	float: left;
+	position: all;
+}
+
+.fyrsti {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+	
+}
+
+.annar {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+}
+
+.thridji {
+	border: $litur1 solid 2px;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background: linear-gradient(#45034f, #8f0da3);
+	color: white;
+}
+
+.myndir {
+	border: 2px $litur1 solid;
+	border-radius: 10px;
+	display: $flex;
+	flex-direction: column;
+	justify-content: center;
+	background: linear-gradient(#8f0da3, #45034f);
+	margin-top: 5px;
+	max-width: 100%;
+	position: all;
+}
+
+img.pit {
+	padding: 10px;
+	border-radius: 300px;
+	width: 300px;
+	height: 180px;
+}
+
+img.roz {
+	padding: 10px;
+	border-radius: 300px;
+	width: 260px;
+	height: 210px;
+}
+
+footer {
+	border: $litur1 solid 2px;
+	border-radius: 10px;
+	background: linear-gradient(#8f0da3, #45034f);
+	color: white;
+	margin-top: 5px;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+nav.heildarnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+}
