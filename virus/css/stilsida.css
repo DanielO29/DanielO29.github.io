@@ -1,0 +1,14 @@
+img {
+	position: relative;
+	animation-name: hreyfing;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hreyfing {
+    0%   {left:0px; top:0px;}
+    25%  {left:88%; top:0px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+}
