@@ -1,0 +1,120 @@
+/*Mobile Up*/
+@media all and (max-width: 37.5em) {
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+}
+
+section.kafli-1 {
+	display: flex;
+	flex-direction: column;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+	order:2;
+}
+
+p {
+	font-size: 24px;
+}
+
+.einn {
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	padding:2%;
+	background-color: lightgreen;
+}
+}
+
+/*Tablet*/
+@media all and (min-width: 37.5em) and (max-width: 48em) {
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+}
+
+section.kafli-1 {
+	display: flex;
+	flex-direction: column;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+	order:2;
+}
+
+p {
+	font-size: 24px;
+}
+
+.einn {
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	padding:2%;
+	background-color: lightgreen;
+}
+}
+
+/*The Holy Grail*/
+@media all and (min-width: 48em) {
+
+body {
+	margin: 0 auto;
+	max-width: 60em;
+	background-color: #EBD5A3;
+}
+
+header {
+	background-color: #E87467;
+	padding: 3%;
+	color: white;
+}
+
+section.kafli-1 {
+	display: flex;
+	flex-direction: column;
+}
+
+article.adalgrein {
+	padding: 2%;
+	background-color: lightblue;
+	order:2;
+}
+
+p {
+	font-size: 24px;
+}
+
+.einn {
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	padding:2%;
+	background-color: lightgreen;
+}
+}
