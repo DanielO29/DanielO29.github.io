@@ -26,6 +26,3 @@ https://danielo29.github.io/Scss_AEfingar/index.html
 
 ### SCSS Vefsíða
 https://danielo29.github.io/Scss_vefsida/index.html
-
-### Jarðfræði Vefsíða
-https://danielo29.github.io/Jardfraedi_sida/index.html
